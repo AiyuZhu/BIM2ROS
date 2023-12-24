@@ -1,2 +1,2 @@
-
+unit_without_beam_in_b_room
 -DCATKIN_DEVEL_PREFIX=/root/BIM2ROS/devel -DCMAKE_INSTALL_PREFIX=/root/BIM2ROS/install -G Unix Makefiles

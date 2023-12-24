@@ -131,6 +131,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/root/BIM2ROS/build/gtest/cmake_install.cmake")
+  include("/root/BIM2ROS/build/unit_without_beam_in_b_room/cmake_install.cmake")
 
 endif()
 
