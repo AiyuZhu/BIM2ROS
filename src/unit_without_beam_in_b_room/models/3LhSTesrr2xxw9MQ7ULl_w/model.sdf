@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+                                <sdf version = '1.5'>
+                                <model name = "3LhSTesrr2xxw9MQ7ULl_w">
+                                    <static>True</static>
+                                    <self_collide>True</self_collide>
+                                    <enable_wind>True</enable_wind>
+                                    <pose>0 0 0 0 0 0</pose>
+                                
+                                    <link name = 'IfcWall'>
+                                        <inertial>
+                                          <mass>56.520003368854596</mass>
+                                          <pose>4.5 0.0 2.0 0 0 0</pose>
+                                          <inertia>
+                                            <ixx>75.54840450865038</ixx>
+                                            <ixy>0.0</ixy>
+                                            <ixz>0.0</ixz>
+                                            <iyy>456.8700272315746</iyy>
+                                            <iyz>1.871585929613674e-16</iyz>
+                                            <izz>381.69842275661273</izz>
+                                          </inertia>
+                                        </inertial>
+                                
+                                        <collision name='collision'>
+                                            <geometry>
+                                                <mesh>
+                                                    <uri>model://3LhSTesrr2xxw9MQ7ULl_w//meshes//3LhSTesrr2xxw9MQ7ULl_w.dae</uri>
+                                                </mesh>
+                                            </geometry>
+                                        </collision>
+                                
+                                        <visual name='visual'>
+                                            <geometry>
+                                                <mesh>
+                                                    <uri>model://3LhSTesrr2xxw9MQ7ULl_w//meshes//3LhSTesrr2xxw9MQ7ULl_w.dae</uri>
+                                                </mesh>
+                                            </geometry>
+                                        </visual>
+                                    </link>
+                                </model>
+                                </sdf>
+                                

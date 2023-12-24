@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+                        <sdf version="1.5">
+                          <world name="test_sim_env">
+                            <physics type="ode">
+                            ...
+                            </physics>  
+                            
+                            <include>
+                                <uri>model://sun</uri>
+                            </include>
+
+                            <include>
+                                <uri>model://plane</uri>
+                            </include>
+                        
+                                    <include>
+                                        <uri>model://3SPfAWk9rByeCrma0uxQ8k</uri>
+                                        <pose>-2.2618247227094312 8.628473556392139 0.0 0 0 0</pose>
+                                    </include>
+                                    
+                                    <include>
+                                        <uri>model://3SPfAWk9rByeCrma0uxQ0b</uri>
+                                        <pose>0.7381752772905712 8.62847355639213 0.0 0 0 0</pose>
+                                    </include>
+                                    
+                                    <include>
+                                        <uri>model://3SPfAWk9rByeCrma0uxQ0h</uri>
+                                        <pose>0.7381752772905663 5.628473556392129 0.0 0 0 0</pose>
+                                    </include>
+                                    
+                                    <include>
+                                        <uri>model://3SPfAWk9rByeCrma0uxQ0V</uri>
+                                        <pose>-2.2618247227094357 5.628473556392139 0.0 0 0 0</pose>
+                                    </include>
+                                    
+                                    <include>
+                                        <uri>model://3SPfAWk9rByeCrma0uxQUo</uri>
+                                        <pose>0.7381752772905645 5.628473556392129 0.0 0 0 0</pose>
+                                    </include>
+                                    
+                                    <include>
+                                        <uri>model://3SPfAWk9rByeCrma0uxQJn</uri>
+                                        <pose>0.7381752772905708 8.62968289602632 0.0 0 0 0</pose>
+                                    </include>
+                                    
+                                    <include>
+                                        <uri>model://3SPfAWk9rByeCrma0uxQK$</uri>
+                                        <pose>-2.262934970866317 8.63515631757177 0.0 0 0 0</pose>
+                                    </include>
+                                    
+                                    <include>
+                                        <uri>model://3SPfAWk9rByeCrma0uxPh3</uri>
+                                        <pose>-2.262750918233713 5.628137665273223 0.0 0 0 0</pose>
+                                    </include>
+                                    
+                                    <include>
+                                        <uri>model://3LhSTesrr2xxw9MQ7ULl_w</uri>
+                                        <pose>-5.36182472270942 -1.2635171315658515 0.0 0 0 0</pose>
+                                    </include>
+                                    
+                                    <include>
+                                        <uri>model://3LhSTesrr2xxw9MQ7ULlxY</uri>
+                                        <pose>-4.161824722709451 -1.3635171315658565 0.0 0 0 0</pose>
+                                    </include>
+                                    
+                                    <include>
+                                        <uri>model://3LhSTesrr2xxw9MQ7ULlFp</uri>
+                                        <pose>-5.361824722709419 13.535155139052073 0.0 0 0 0</pose>
+                                    </include>
+                                    
+                                    <include>
+                                        <uri>model://3LhSTesrr2xxw9MQ7ULkbw</uri>
+                                        <pose>3.7381752772905603 -1.3635171315658812 0.0 0 0 0</pose>
+                                    </include>
+                                    
+                                    <include>
+                                        <uri>model://3LhSTesrr2xxw9MQ7ULkmt</uri>
+                                        <pose>-5.261824722709418 13.435155139052073 0.0 0 0 0</pose>
+                                    </include>
+                                    
+ </world>
+</sdf>

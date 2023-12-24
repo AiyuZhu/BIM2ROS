@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+                                <sdf version = '1.5'>
+                                <model name = "3SPfAWk9rByeCrma0uxQUo">
+                                    <static>True</static>
+                                    <self_collide>True</self_collide>
+                                    <enable_wind>True</enable_wind>
+                                    <pose>0 0 0 0 0 0</pose>
+                                
+                                    <link name = 'IfcColumn'>
+                                        <inertial>
+                                          <mass>0.35223702619622943</mass>
+                                          <pose>-0.012655289145186543 0.012710209703072906 1.2372214943170547 0 0 0</pose>
+                                          <inertia>
+                                            <ixx>0.10584833349993021</ixx>
+                                            <ixy>-8.593467241572235e-05</ixy>
+                                            <ixz>0.0021991097861511345</ixz>
+                                            <iyy>0.10584471158821414</iyy>
+                                            <iyz>-0.002210788435119173</iyz>
+                                            <izz>0.0015882861033312667</izz>
+                                          </inertia>
+                                        </inertial>
+                                
+                                        <collision name='collision'>
+                                            <geometry>
+                                                <mesh>
+                                                    <uri>model://3SPfAWk9rByeCrma0uxQUo//meshes//3SPfAWk9rByeCrma0uxQUo.dae</uri>
+                                                </mesh>
+                                            </geometry>
+                                        </collision>
+                                
+                                        <visual name='visual'>
+                                            <geometry>
+                                                <mesh>
+                                                    <uri>model://3SPfAWk9rByeCrma0uxQUo//meshes//3SPfAWk9rByeCrma0uxQUo.dae</uri>
+                                                </mesh>
+                                            </geometry>
+                                        </visual>
+                                    </link>
+                                </model>
+                                </sdf>
+                                
