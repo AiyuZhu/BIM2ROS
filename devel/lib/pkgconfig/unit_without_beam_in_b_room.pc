@@ -1,0 +1,8 @@
+prefix=/root/BIM2ROS/devel
+
+Name: unit_without_beam_in_b_room
+Description: Description of unit_without_beam_in_b_room
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

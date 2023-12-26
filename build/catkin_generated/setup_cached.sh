@@ -7,7 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/root/BIM2ROS/devel:$CMAKE_PREFIX_PATH"
 export PWD='/root/BIM2ROS/build'
-export ROSLISP_PACKAGE_DIRECTORIES='/root/BIM2ROS/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/root/BIM2ROS/src:$ROS_PACKAGE_PATH"
